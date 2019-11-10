@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="55" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="24" max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Registration Form">
+              <Font PropertyName="font" name="Dialog" size="12" style="2"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="email_tf" linkSize="1" min="-2" pref="129" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="fname_tf" max="32767" attributes="0"/>
+                                      <Component id="lname_tf" linkSize="1" pref="158" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="city_cb" pref="118" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="repwd_tf" linkSize="1" pref="129" max="32767" attributes="0"/>
+                                      <Component id="phno_tf" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                  <Component id="pwd_tf" linkSize="1" min="-2" pref="129" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                  <Component id="reg_btn" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="city_cb" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fname_tf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lname_tf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="email_tf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <Component id="pwd_tf" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="repwd_tf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="phno_tf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="47" max="32767" attributes="0"/>
+                  <Component id="reg_btn" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="First Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Last Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lname_tf">
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="lname_tfKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Email"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="email_tf">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Password"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="pwd_tf">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Reenter Password"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="repwd_tf">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="City"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="city_cb">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="637">
+                <StringItem index="0" value="Adilabad"/>
+                <StringItem index="1" value="Agra"/>
+                <StringItem index="2" value="Ahmedabad"/>
+                <StringItem index="3" value="Ahmednagar"/>
+                <StringItem index="4" value="Aizawl"/>
+                <StringItem index="5" value="Ajitgarh (Mohali)"/>
+                <StringItem index="6" value="Ajmer"/>
+                <StringItem index="7" value="Akola"/>
+                <StringItem index="8" value="Alappuzha"/>
+                <StringItem index="9" value="Aligarh"/>
+                <StringItem index="10" value="Alirajpur"/>
+                <StringItem index="11" value="Allahabad"/>
+                <StringItem index="12" value="Almora"/>
+                <StringItem index="13" value="Alwar"/>
+                <StringItem index="14" value="Ambala"/>
+                <StringItem index="15" value="Ambedkar Nagar"/>
+                <StringItem index="16" value="Amravati"/>
+                <StringItem index="17" value="Amreli district"/>
+                <StringItem index="18" value="Amritsar"/>
+                <StringItem index="19" value="Anand"/>
+                <StringItem index="20" value="Anantapur"/>
+                <StringItem index="21" value="Anantnag"/>
+                <StringItem index="22" value="Angul"/>
+                <StringItem index="23" value="Anjaw"/>
+                <StringItem index="24" value="Anuppur"/>
+                <StringItem index="25" value="Araria"/>
+                <StringItem index="26" value="Ariyalur"/>
+                <StringItem index="27" value="Arwal"/>
+                <StringItem index="28" value="Ashok Nagar"/>
+                <StringItem index="29" value="Auraiya"/>
+                <StringItem index="30" value="Aurangabad"/>
+                <StringItem index="31" value="Aurangabad"/>
+                <StringItem index="32" value="Azamgarh"/>
+                <StringItem index="33" value="Badgam"/>
+                <StringItem index="34" value="Bagalkot"/>
+                <StringItem index="35" value="Bageshwar"/>
+                <StringItem index="36" value="Bagpat"/>
+                <StringItem index="37" value="Bahraich"/>
+                <StringItem index="38" value="Baksa"/>
+                <StringItem index="39" value="Balaghat"/>
+                <StringItem index="40" value="Balangir"/>
+                <StringItem index="41" value="Balasore"/>
+                <StringItem index="42" value="Ballia"/>
+                <StringItem index="43" value="Balrampur"/>
+                <StringItem index="44" value="Banaskantha"/>
+                <StringItem index="45" value="Banda"/>
+                <StringItem index="46" value="Bandipora"/>
+                <StringItem index="47" value="Bangalore Rural"/>
+                <StringItem index="48" value="Bangalore Urban"/>
+                <StringItem index="49" value="Banka"/>
+                <StringItem index="50" value="Bankura"/>
+                <StringItem index="51" value="Banswara"/>
+                <StringItem index="52" value="Barabanki"/>
+                <StringItem index="53" value="Baramulla"/>
+                <StringItem index="54" value="Baran"/>
+                <StringItem index="55" value="Bardhaman"/>
+                <StringItem index="56" value="Bareilly"/>
+                <StringItem index="57" value="Bargarh (Baragarh)"/>
+                <StringItem index="58" value="Barmer"/>
+                <StringItem index="59" value="Barnala"/>
+                <StringItem index="60" value="Barpeta"/>
+                <StringItem index="61" value="Barwani"/>
+                <StringItem index="62" value="Bastar"/>
+                <StringItem index="63" value="Basti"/>
+                <StringItem index="64" value="Bathinda"/>
+                <StringItem index="65" value="Beed"/>
+                <StringItem index="66" value="Begusarai"/>
+                <StringItem index="67" value="Belgaum"/>
+                <StringItem index="68" value="Bellary"/>
+                <StringItem index="69" value="Betul"/>
+                <StringItem index="70" value="Bhadrak"/>
+                <StringItem index="71" value="Bhagalpur"/>
+                <StringItem index="72" value="Bhandara"/>
+                <StringItem index="73" value="Bharatpur"/>
+                <StringItem index="74" value="Bharuch"/>
+                <StringItem index="75" value="Bhavnagar"/>
+                <StringItem index="76" value="Bhilwara"/>
+                <StringItem index="77" value="Bhind"/>
+                <StringItem index="78" value="Bhiwani"/>
+                <StringItem index="79" value="Bhojpur"/>
+                <StringItem index="80" value="Bhopal"/>
+                <StringItem index="81" value="Bidar"/>
+                <StringItem index="82" value="Bijapur"/>
+                <StringItem index="83" value="Bijapur"/>
+                <StringItem index="84" value="Bijnor"/>
+                <StringItem index="85" value="Bikaner"/>
+                <StringItem index="86" value="Bilaspur"/>
+                <StringItem index="87" value="Bilaspur"/>
+                <StringItem index="88" value="Birbhum"/>
+                <StringItem index="89" value="Bishnupur"/>
+                <StringItem index="90" value="Bokaro"/>
+                <StringItem index="91" value="Bongaigaon"/>
+                <StringItem index="92" value="Boudh (Bauda)"/>
+                <StringItem index="93" value="Budaun"/>
+                <StringItem index="94" value="Bulandshahr"/>
+                <StringItem index="95" value="Buldhana"/>
+                <StringItem index="96" value="Bundi"/>
+                <StringItem index="97" value="Burhanpur"/>
+                <StringItem index="98" value="Buxar"/>
+                <StringItem index="99" value="Cachar"/>
+                <StringItem index="100" value="Central Delhi"/>
+                <StringItem index="101" value="Chamarajnagar"/>
+                <StringItem index="102" value="Chamba"/>
+                <StringItem index="103" value="Chamoli"/>
+                <StringItem index="104" value="Champawat"/>
+                <StringItem index="105" value="Champhai"/>
+                <StringItem index="106" value="Chandauli"/>
+                <StringItem index="107" value="Chandel"/>
+                <StringItem index="108" value="Chandigarh"/>
+                <StringItem index="109" value="Chandrapur"/>
+                <StringItem index="110" value="Changlang"/>
+                <StringItem index="111" value="Chatra"/>
+                <StringItem index="112" value="Chennai"/>
+                <StringItem index="113" value="Chhatarpur"/>
+                <StringItem index="114" value="Chhatrapati Shahuji Maharaj Nagar"/>
+                <StringItem index="115" value="Chhindwara"/>
+                <StringItem index="116" value="Chikkaballapur"/>
+                <StringItem index="117" value="Chikkamagaluru"/>
+                <StringItem index="118" value="Chirang"/>
+                <StringItem index="119" value="Chitradurga"/>
+                <StringItem index="120" value="Chitrakoot"/>
+                <StringItem index="121" value="Chittoor"/>
+                <StringItem index="122" value="Chittorgarh"/>
+                <StringItem index="123" value="Churachandpur"/>
+                <StringItem index="124" value="Churu"/>
+                <StringItem index="125" value="Coimbatore"/>
+                <StringItem index="126" value="Cooch Behar"/>
+                <StringItem index="127" value="Cuddalore"/>
+                <StringItem index="128" value="Cuttack"/>
+                <StringItem index="129" value="Dadra and Nagar Haveli"/>
+                <StringItem index="130" value="Dahod"/>
+                <StringItem index="131" value="Dakshin Dinajpur"/>
+                <StringItem index="132" value="Dakshina Kannada"/>
+                <StringItem index="133" value="Daman"/>
+                <StringItem index="134" value="Damoh"/>
+                <StringItem index="135" value="Dantewada"/>
+                <StringItem index="136" value="Darbhanga"/>
+                <StringItem index="137" value="Darjeeling"/>
+                <StringItem index="138" value="Darrang"/>
+                <StringItem index="139" value="Datia"/>
+                <StringItem index="140" value="Dausa"/>
+                <StringItem index="141" value="Davanagere"/>
+                <StringItem index="142" value="Debagarh (Deogarh)"/>
+                <StringItem index="143" value="Dehradun"/>
+                <StringItem index="144" value="Deoghar"/>
+                <StringItem index="145" value="Deoria"/>
+                <StringItem index="146" value="Dewas"/>
+                <StringItem index="147" value="Dhalai"/>
+                <StringItem index="148" value="Dhamtari"/>
+                <StringItem index="149" value="Dhanbad"/>
+                <StringItem index="150" value="Dhar"/>
+                <StringItem index="151" value="Dharmapuri"/>
+                <StringItem index="152" value="Dharwad"/>
+                <StringItem index="153" value="Dhemaji"/>
+                <StringItem index="154" value="Dhenkanal"/>
+                <StringItem index="155" value="Dholpur"/>
+                <StringItem index="156" value="Dhubri"/>
+                <StringItem index="157" value="Dhule"/>
+                <StringItem index="158" value="Dibang Valley"/>
+                <StringItem index="159" value="Dibrugarh"/>
+                <StringItem index="160" value="Dima Hasao"/>
+                <StringItem index="161" value="Dimapur"/>
+                <StringItem index="162" value="Dindigul"/>
+                <StringItem index="163" value="Dindori"/>
+                <StringItem index="164" value="Diu"/>
+                <StringItem index="165" value="Doda"/>
+                <StringItem index="166" value="Dumka"/>
+                <StringItem index="167" value="Dungapur"/>
+                <StringItem index="168" value="Durg"/>
+                <StringItem index="169" value="East Champaran"/>
+                <StringItem index="170" value="East Delhi"/>
+                <StringItem index="171" value="East Garo Hills"/>
+                <StringItem index="172" value="East Khasi Hills"/>
+                <StringItem index="173" value="East Siang"/>
+                <StringItem index="174" value="East Sikkim"/>
+                <StringItem index="175" value="East Singhbhum"/>
+                <StringItem index="176" value="Eluru"/>
+                <StringItem index="177" value="Ernakulam"/>
+                <StringItem index="178" value="Erode"/>
+                <StringItem index="179" value="Etah"/>
+                <StringItem index="180" value="Etawah"/>
+                <StringItem index="181" value="Faizabad"/>
+                <StringItem index="182" value="Faridabad"/>
+                <StringItem index="183" value="Faridkot"/>
+                <StringItem index="184" value="Farrukhabad"/>
+                <StringItem index="185" value="Fatehabad"/>
+                <StringItem index="186" value="Fatehgarh Sahib"/>
+                <StringItem index="187" value="Fatehpur"/>
+                <StringItem index="188" value="Fazilka"/>
+                <StringItem index="189" value="Firozabad"/>
+                <StringItem index="190" value="Firozpur"/>
+                <StringItem index="191" value="Gadag"/>
+                <StringItem index="192" value="Gadchiroli"/>
+                <StringItem index="193" value="Gajapati"/>
+                <StringItem index="194" value="Ganderbal"/>
+                <StringItem index="195" value="Gandhinagar"/>
+                <StringItem index="196" value="Ganganagar"/>
+                <StringItem index="197" value="Ganjam"/>
+                <StringItem index="198" value="Garhwa"/>
+                <StringItem index="199" value="Gautam Buddh Nagar"/>
+                <StringItem index="200" value="Gaya"/>
+                <StringItem index="201" value="Ghaziabad"/>
+                <StringItem index="202" value="Ghazipur"/>
+                <StringItem index="203" value="Giridih"/>
+                <StringItem index="204" value="Goalpara"/>
+                <StringItem index="205" value="Godda"/>
+                <StringItem index="206" value="Golaghat"/>
+                <StringItem index="207" value="Gonda"/>
+                <StringItem index="208" value="Gondia"/>
+                <StringItem index="209" value="Gopalganj"/>
+                <StringItem index="210" value="Gorakhpur"/>
+                <StringItem index="211" value="Gulbarga"/>
+                <StringItem index="212" value="Gumla"/>
+                <StringItem index="213" value="Guna"/>
+                <StringItem index="214" value="Guntur"/>
+                <StringItem index="215" value="Gurdaspur"/>
+                <StringItem index="216" value="Gurgaon"/>
+                <StringItem index="217" value="Gwalior"/>
+                <StringItem index="218" value="Hailakandi"/>
+                <StringItem index="219" value="Hamirpur"/>
+                <StringItem index="220" value="Hamirpur"/>
+                <StringItem index="221" value="Hanumangarh"/>
+                <StringItem index="222" value="Harda"/>
+                <StringItem index="223" value="Hardoi"/>
+                <StringItem index="224" value="Haridwar"/>
+                <StringItem index="225" value="Hassan"/>
+                <StringItem index="226" value="Haveri district"/>
+                <StringItem index="227" value="Hazaribag"/>
+                <StringItem index="228" value="Hingoli"/>
+                <StringItem index="229" value="Hissar"/>
+                <StringItem index="230" value="Hooghly"/>
+                <StringItem index="231" value="Hoshangabad"/>
+                <StringItem index="232" value="Hoshiarpur"/>
+                <StringItem index="233" value="Howrah"/>
+                <StringItem index="234" value="Hyderabad"/>
+                <StringItem index="235" value="Hyderabad"/>
+                <StringItem index="236" value="Idukki"/>
+                <StringItem index="237" value="Imphal East"/>
+                <StringItem index="238" value="Imphal West"/>
+                <StringItem index="239" value="Indore"/>
+                <StringItem index="240" value="Jabalpur"/>
+                <StringItem index="241" value="Jagatsinghpur"/>
+                <StringItem index="242" value="Jaintia Hills"/>
+                <StringItem index="243" value="Jaipur"/>
+                <StringItem index="244" value="Jaisalmer"/>
+                <StringItem index="245" value="Jajpur"/>
+                <StringItem index="246" value="Jalandhar"/>
+                <StringItem index="247" value="Jalaun"/>
+                <StringItem index="248" value="Jalgaon"/>
+                <StringItem index="249" value="Jalna"/>
+                <StringItem index="250" value="Jalore"/>
+                <StringItem index="251" value="Jalpaiguri"/>
+                <StringItem index="252" value="Jammu"/>
+                <StringItem index="253" value="Jamnagar"/>
+                <StringItem index="254" value="Jamtara"/>
+                <StringItem index="255" value="Jamui"/>
+                <StringItem index="256" value="Janjgir-Champa"/>
+                <StringItem index="257" value="Jashpur"/>
+                <StringItem index="258" value="Jaunpur district"/>
+                <StringItem index="259" value="Jehanabad"/>
+                <StringItem index="260" value="Jhabua"/>
+                <StringItem index="261" value="Jhajjar"/>
+                <StringItem index="262" value="Jhalawar"/>
+                <StringItem index="263" value="Jhansi"/>
+                <StringItem index="264" value="Jharsuguda"/>
+                <StringItem index="265" value="Jhunjhunu"/>
+                <StringItem index="266" value="Jind"/>
+                <StringItem index="267" value="Jodhpur"/>
+                <StringItem index="268" value="Jorhat"/>
+                <StringItem index="269" value="Junagadh"/>
+                <StringItem index="270" value="Jyotiba Phule Nagar"/>
+                <StringItem index="271" value="Kabirdham (formerly Kawardha)"/>
+                <StringItem index="272" value="Kadapa"/>
+                <StringItem index="273" value="Kaimur"/>
+                <StringItem index="274" value="Kaithal"/>
+                <StringItem index="275" value="Kakinada"/>
+                <StringItem index="276" value="Kalahandi"/>
+                <StringItem index="277" value="Kamrup"/>
+                <StringItem index="278" value="Kamrup Metropolitan"/>
+                <StringItem index="279" value="Kanchipuram"/>
+                <StringItem index="280" value="Kandhamal"/>
+                <StringItem index="281" value="Kangra"/>
+                <StringItem index="282" value="Kanker"/>
+                <StringItem index="283" value="Kannauj"/>
+                <StringItem index="284" value="Kannur"/>
+                <StringItem index="285" value="Kanpur"/>
+                <StringItem index="286" value="Kanshi Ram Nagar"/>
+                <StringItem index="287" value="Kanyakumari"/>
+                <StringItem index="288" value="Kapurthala"/>
+                <StringItem index="289" value="Karaikal"/>
+                <StringItem index="290" value="Karauli"/>
+                <StringItem index="291" value="Karbi Anglong"/>
+                <StringItem index="292" value="Kargil"/>
+                <StringItem index="293" value="Karimganj"/>
+                <StringItem index="294" value="Karimnagar"/>
+                <StringItem index="295" value="Karnal"/>
+                <StringItem index="296" value="Karur"/>
+                <StringItem index="297" value="Kasaragod"/>
+                <StringItem index="298" value="Kathua"/>
+                <StringItem index="299" value="Katihar"/>
+                <StringItem index="300" value="Katni"/>
+                <StringItem index="301" value="Kaushambi"/>
+                <StringItem index="302" value="Kendrapara"/>
+                <StringItem index="303" value="Kendujhar (Keonjhar)"/>
+                <StringItem index="304" value="Khagaria"/>
+                <StringItem index="305" value="Khammam"/>
+                <StringItem index="306" value="Khandwa (East Nimar)"/>
+                <StringItem index="307" value="Khargone (West Nimar)"/>
+                <StringItem index="308" value="Kheda"/>
+                <StringItem index="309" value="Khordha"/>
+                <StringItem index="310" value="Khowai"/>
+                <StringItem index="311" value="Khunti"/>
+                <StringItem index="312" value="Kinnaur"/>
+                <StringItem index="313" value="Kishanganj"/>
+                <StringItem index="314" value="Kishtwar"/>
+                <StringItem index="315" value="Kodagu"/>
+                <StringItem index="316" value="Koderma"/>
+                <StringItem index="317" value="Kohima"/>
+                <StringItem index="318" value="Kokrajhar"/>
+                <StringItem index="319" value="Kolar"/>
+                <StringItem index="320" value="Kolasib"/>
+                <StringItem index="321" value="Kolhapur"/>
+                <StringItem index="322" value="Kolkata"/>
+                <StringItem index="323" value="Kollam"/>
+                <StringItem index="324" value="Koppal"/>
+                <StringItem index="325" value="Koraput"/>
+                <StringItem index="326" value="Korba"/>
+                <StringItem index="327" value="Koriya"/>
+                <StringItem index="328" value="Kota"/>
+                <StringItem index="329" value="Kottayam"/>
+                <StringItem index="330" value="Kozhikode"/>
+                <StringItem index="331" value="Krishna"/>
+                <StringItem index="332" value="Kulgam"/>
+                <StringItem index="333" value="Kullu"/>
+                <StringItem index="334" value="Kupwara"/>
+                <StringItem index="335" value="Kurnool"/>
+                <StringItem index="336" value="Kurukshetra"/>
+                <StringItem index="337" value="Kurung Kumey"/>
+                <StringItem index="338" value="Kushinagar"/>
+                <StringItem index="339" value="Kutch"/>
+                <StringItem index="340" value="Lahaul and Spiti"/>
+                <StringItem index="341" value="Lakhimpur"/>
+                <StringItem index="342" value="Lakhimpur Kheri"/>
+                <StringItem index="343" value="Lakhisarai"/>
+                <StringItem index="344" value="Lalitpur"/>
+                <StringItem index="345" value="Latehar"/>
+                <StringItem index="346" value="Latur"/>
+                <StringItem index="347" value="Lawngtlai"/>
+                <StringItem index="348" value="Leh"/>
+                <StringItem index="349" value="Lohardaga"/>
+                <StringItem index="350" value="Lohit"/>
+                <StringItem index="351" value="Lower Dibang Valley"/>
+                <StringItem index="352" value="Lower Subansiri"/>
+                <StringItem index="353" value="Lucknow"/>
+                <StringItem index="354" value="Ludhiana"/>
+                <StringItem index="355" value="Lunglei"/>
+                <StringItem index="356" value="Madhepura"/>
+                <StringItem index="357" value="Madhubani"/>
+                <StringItem index="358" value="Madurai"/>
+                <StringItem index="359" value="Mahamaya Nagar"/>
+                <StringItem index="360" value="Maharajganj"/>
+                <StringItem index="361" value="Mahasamund"/>
+                <StringItem index="362" value="Mahbubnagar"/>
+                <StringItem index="363" value="Mahe"/>
+                <StringItem index="364" value="Mahendragarh"/>
+                <StringItem index="365" value="Mahoba"/>
+                <StringItem index="366" value="Mainpuri"/>
+                <StringItem index="367" value="Malappuram"/>
+                <StringItem index="368" value="Maldah"/>
+                <StringItem index="369" value="Malkangiri"/>
+                <StringItem index="370" value="Mamit"/>
+                <StringItem index="371" value="Mandi"/>
+                <StringItem index="372" value="Mandla"/>
+                <StringItem index="373" value="Mandsaur"/>
+                <StringItem index="374" value="Mandya"/>
+                <StringItem index="375" value="Mansa"/>
+                <StringItem index="376" value="Marigaon"/>
+                <StringItem index="377" value="Mathura"/>
+                <StringItem index="378" value="Mau"/>
+                <StringItem index="379" value="Mayurbhanj"/>
+                <StringItem index="380" value="Medak"/>
+                <StringItem index="381" value="Meerut"/>
+                <StringItem index="382" value="Mehsana"/>
+                <StringItem index="383" value="Mewat"/>
+                <StringItem index="384" value="Mirzapur"/>
+                <StringItem index="385" value="Moga"/>
+                <StringItem index="386" value="Mokokchung"/>
+                <StringItem index="387" value="Mon"/>
+                <StringItem index="388" value="Moradabad"/>
+                <StringItem index="389" value="Morena"/>
+                <StringItem index="390" value="Mumbai City"/>
+                <StringItem index="391" value="Mumbai suburban"/>
+                <StringItem index="392" value="Munger"/>
+                <StringItem index="393" value="Murshidabad"/>
+                <StringItem index="394" value="Muzaffarnagar"/>
+                <StringItem index="395" value="Muzaffarpur"/>
+                <StringItem index="396" value="Mysore"/>
+                <StringItem index="397" value="Nabarangpur"/>
+                <StringItem index="398" value="Nadia"/>
+                <StringItem index="399" value="Nagaon"/>
+                <StringItem index="400" value="Nagapattinam"/>
+                <StringItem index="401" value="Nagaur"/>
+                <StringItem index="402" value="Nagpur"/>
+                <StringItem index="403" value="Nainital"/>
+                <StringItem index="404" value="Nalanda"/>
+                <StringItem index="405" value="Nalbari"/>
+                <StringItem index="406" value="Nalgonda"/>
+                <StringItem index="407" value="Namakkal"/>
+                <StringItem index="408" value="Nanded"/>
+                <StringItem index="409" value="Nandurbar"/>
+                <StringItem index="410" value="Narayanpur"/>
+                <StringItem index="411" value="Narmada"/>
+                <StringItem index="412" value="Narsinghpur"/>
+                <StringItem index="413" value="Nashik"/>
+                <StringItem index="414" value="Navsari"/>
+                <StringItem index="415" value="Nawada"/>
+                <StringItem index="416" value="Nawanshahr"/>
+                <StringItem index="417" value="Nayagarh"/>
+                <StringItem index="418" value="Neemuch"/>
+                <StringItem index="419" value="Nellore"/>
+                <StringItem index="420" value="New Delhi"/>
+                <StringItem index="421" value="Nilgiris"/>
+                <StringItem index="422" value="Nizamabad"/>
+                <StringItem index="423" value="North 24 Parganas"/>
+                <StringItem index="424" value="North Delhi"/>
+                <StringItem index="425" value="North East Delhi"/>
+                <StringItem index="426" value="North Goa"/>
+                <StringItem index="427" value="North Sikkim"/>
+                <StringItem index="428" value="North Tripura"/>
+                <StringItem index="429" value="North West Delhi"/>
+                <StringItem index="430" value="Nuapada"/>
+                <StringItem index="431" value="Ongole"/>
+                <StringItem index="432" value="Osmanabad"/>
+                <StringItem index="433" value="Pakur"/>
+                <StringItem index="434" value="Palakkad"/>
+                <StringItem index="435" value="Palamu"/>
+                <StringItem index="436" value="Pali"/>
+                <StringItem index="437" value="Palwal"/>
+                <StringItem index="438" value="Panchkula"/>
+                <StringItem index="439" value="Panchmahal"/>
+                <StringItem index="440" value="Panchsheel Nagar district (Hapur)"/>
+                <StringItem index="441" value="Panipat"/>
+                <StringItem index="442" value="Panna"/>
+                <StringItem index="443" value="Papum Pare"/>
+                <StringItem index="444" value="Parbhani"/>
+                <StringItem index="445" value="Paschim Medinipur"/>
+                <StringItem index="446" value="Patan"/>
+                <StringItem index="447" value="Pathanamthitta"/>
+                <StringItem index="448" value="Pathankot"/>
+                <StringItem index="449" value="Patiala"/>
+                <StringItem index="450" value="Patna"/>
+                <StringItem index="451" value="Pauri Garhwal"/>
+                <StringItem index="452" value="Perambalur"/>
+                <StringItem index="453" value="Phek"/>
+                <StringItem index="454" value="Pilibhit"/>
+                <StringItem index="455" value="Pithoragarh"/>
+                <StringItem index="456" value="Pondicherry"/>
+                <StringItem index="457" value="Poonch"/>
+                <StringItem index="458" value="Porbandar"/>
+                <StringItem index="459" value="Pratapgarh"/>
+                <StringItem index="460" value="Pratapgarh"/>
+                <StringItem index="461" value="Pudukkottai"/>
+                <StringItem index="462" value="Pulwama"/>
+                <StringItem index="463" value="Pune"/>
+                <StringItem index="464" value="Purba Medinipur"/>
+                <StringItem index="465" value="Puri"/>
+                <StringItem index="466" value="Purnia"/>
+                <StringItem index="467" value="Purulia"/>
+                <StringItem index="468" value="Raebareli"/>
+                <StringItem index="469" value="Raichur"/>
+                <StringItem index="470" value="Raigad"/>
+                <StringItem index="471" value="Raigarh"/>
+                <StringItem index="472" value="Raipur"/>
+                <StringItem index="473" value="Raisen"/>
+                <StringItem index="474" value="Rajauri"/>
+                <StringItem index="475" value="Rajgarh"/>
+                <StringItem index="476" value="Rajkot"/>
+                <StringItem index="477" value="Rajnandgaon"/>
+                <StringItem index="478" value="Rajsamand"/>
+                <StringItem index="479" value="Ramabai Nagar (Kanpur Dehat)"/>
+                <StringItem index="480" value="Ramanagara"/>
+                <StringItem index="481" value="Ramanathapuram"/>
+                <StringItem index="482" value="Ramban"/>
+                <StringItem index="483" value="Ramgarh"/>
+                <StringItem index="484" value="Rampur"/>
+                <StringItem index="485" value="Ranchi"/>
+                <StringItem index="486" value="Ratlam"/>
+                <StringItem index="487" value="Ratnagiri"/>
+                <StringItem index="488" value="Rayagada"/>
+                <StringItem index="489" value="Reasi"/>
+                <StringItem index="490" value="Rewa"/>
+                <StringItem index="491" value="Rewari"/>
+                <StringItem index="492" value="Ri Bhoi"/>
+                <StringItem index="493" value="Rohtak"/>
+                <StringItem index="494" value="Rohtas"/>
+                <StringItem index="495" value="Rudraprayag"/>
+                <StringItem index="496" value="Rupnagar"/>
+                <StringItem index="497" value="Sabarkantha"/>
+                <StringItem index="498" value="Sagar"/>
+                <StringItem index="499" value="Saharanpur"/>
+                <StringItem index="500" value="Saharsa"/>
+                <StringItem index="501" value="Sahibganj"/>
+                <StringItem index="502" value="Saiha"/>
+                <StringItem index="503" value="Salem"/>
+                <StringItem index="504" value="Samastipur"/>
+                <StringItem index="505" value="Samba"/>
+                <StringItem index="506" value="Sambalpur"/>
+                <StringItem index="507" value="Sangli"/>
+                <StringItem index="508" value="Sangrur"/>
+                <StringItem index="509" value="Sant Kabir Nagar"/>
+                <StringItem index="510" value="Sant Ravidas Nagar"/>
+                <StringItem index="511" value="Saran"/>
+                <StringItem index="512" value="Satara"/>
+                <StringItem index="513" value="Satna"/>
+                <StringItem index="514" value="Sawai Madhopur"/>
+                <StringItem index="515" value="Sehore"/>
+                <StringItem index="516" value="Senapati"/>
+                <StringItem index="517" value="Seoni"/>
+                <StringItem index="518" value="Seraikela Kharsawan"/>
+                <StringItem index="519" value="Serchhip"/>
+                <StringItem index="520" value="Shahdol"/>
+                <StringItem index="521" value="Shahjahanpur"/>
+                <StringItem index="522" value="Shajapur"/>
+                <StringItem index="523" value="Shamli"/>
+                <StringItem index="524" value="Sheikhpura"/>
+                <StringItem index="525" value="Sheohar"/>
+                <StringItem index="526" value="Sheopur"/>
+                <StringItem index="527" value="Shimla"/>
+                <StringItem index="528" value="Shimoga"/>
+                <StringItem index="529" value="Shivpuri"/>
+                <StringItem index="530" value="Shopian"/>
+                <StringItem index="531" value="Shravasti"/>
+                <StringItem index="532" value="Sibsagar"/>
+                <StringItem index="533" value="Siddharthnagar"/>
+                <StringItem index="534" value="Sidhi"/>
+                <StringItem index="535" value="Sikar"/>
+                <StringItem index="536" value="Simdega"/>
+                <StringItem index="537" value="Sindhudurg"/>
+                <StringItem index="538" value="Singrauli"/>
+                <StringItem index="539" value="Sirmaur"/>
+                <StringItem index="540" value="Sirohi"/>
+                <StringItem index="541" value="Sirsa"/>
+                <StringItem index="542" value="Sitamarhi"/>
+                <StringItem index="543" value="Sitapur"/>
+                <StringItem index="544" value="Sivaganga"/>
+                <StringItem index="545" value="Siwan"/>
+                <StringItem index="546" value="Solan"/>
+                <StringItem index="547" value="Solapur"/>
+                <StringItem index="548" value="Sonbhadra"/>
+                <StringItem index="549" value="Sonipat"/>
+                <StringItem index="550" value="Sonitpur"/>
+                <StringItem index="551" value="South 24 Parganas"/>
+                <StringItem index="552" value="South Delhi"/>
+                <StringItem index="553" value="South Garo Hills"/>
+                <StringItem index="554" value="South Goa"/>
+                <StringItem index="555" value="South Sikkim"/>
+                <StringItem index="556" value="South Tripura"/>
+                <StringItem index="557" value="South West Delhi"/>
+                <StringItem index="558" value="Sri Muktsar Sahib"/>
+                <StringItem index="559" value="Srikakulam"/>
+                <StringItem index="560" value="Srinagar"/>
+                <StringItem index="561" value="Subarnapur (Sonepur)"/>
+                <StringItem index="562" value="Sultanpur"/>
+                <StringItem index="563" value="Sundergarh"/>
+                <StringItem index="564" value="Supaul"/>
+                <StringItem index="565" value="Surat"/>
+                <StringItem index="566" value="Surendranagar"/>
+                <StringItem index="567" value="Surguja"/>
+                <StringItem index="568" value="Tamenglong"/>
+                <StringItem index="569" value="Tarn Taran"/>
+                <StringItem index="570" value="Tawang"/>
+                <StringItem index="571" value="Tehri Garhwal"/>
+                <StringItem index="572" value="Thane"/>
+                <StringItem index="573" value="Thanjavur"/>
+                <StringItem index="574" value="The Dangs"/>
+                <StringItem index="575" value="Theni"/>
+                <StringItem index="576" value="Thiruvananthapuram"/>
+                <StringItem index="577" value="Thoothukudi"/>
+                <StringItem index="578" value="Thoubal"/>
+                <StringItem index="579" value="Thrissur"/>
+                <StringItem index="580" value="Tikamgarh"/>
+                <StringItem index="581" value="Tinsukia"/>
+                <StringItem index="582" value="Tirap"/>
+                <StringItem index="583" value="Tiruchirappalli"/>
+                <StringItem index="584" value="Tirunelveli"/>
+                <StringItem index="585" value="Tirupur"/>
+                <StringItem index="586" value="Tiruvallur"/>
+                <StringItem index="587" value="Tiruvannamalai"/>
+                <StringItem index="588" value="Tiruvarur"/>
+                <StringItem index="589" value="Tonk"/>
+                <StringItem index="590" value="Tuensang"/>
+                <StringItem index="591" value="Tumkur"/>
+                <StringItem index="592" value="Udaipur"/>
+                <StringItem index="593" value="Udalguri"/>
+                <StringItem index="594" value="Udham Singh Nagar"/>
+                <StringItem index="595" value="Udhampur"/>
+                <StringItem index="596" value="Udupi"/>
+                <StringItem index="597" value="Ujjain"/>
+                <StringItem index="598" value="Ukhrul"/>
+                <StringItem index="599" value="Umaria"/>
+                <StringItem index="600" value="Una"/>
+                <StringItem index="601" value="Unnao"/>
+                <StringItem index="602" value="Upper Siang"/>
+                <StringItem index="603" value="Upper Subansiri"/>
+                <StringItem index="604" value="Uttar Dinajpur"/>
+                <StringItem index="605" value="Uttara Kannada"/>
+                <StringItem index="606" value="Uttarkashi"/>
+                <StringItem index="607" value="Vadodara"/>
+                <StringItem index="608" value="Vaishali"/>
+                <StringItem index="609" value="Valsad"/>
+                <StringItem index="610" value="Varanasi"/>
+                <StringItem index="611" value="Vellore"/>
+                <StringItem index="612" value="Vidisha"/>
+                <StringItem index="613" value="Viluppuram"/>
+                <StringItem index="614" value="Virudhunagar"/>
+                <StringItem index="615" value="Visakhapatnam"/>
+                <StringItem index="616" value="Vizianagaram"/>
+                <StringItem index="617" value="Vyara"/>
+                <StringItem index="618" value="Warangal"/>
+                <StringItem index="619" value="Wardha"/>
+                <StringItem index="620" value="Washim"/>
+                <StringItem index="621" value="Wayanad"/>
+                <StringItem index="622" value="West Champaran"/>
+                <StringItem index="623" value="West Delhi"/>
+                <StringItem index="624" value="West Garo Hills"/>
+                <StringItem index="625" value="West Kameng"/>
+                <StringItem index="626" value="West Khasi Hills"/>
+                <StringItem index="627" value="West Siang"/>
+                <StringItem index="628" value="West Sikkim"/>
+                <StringItem index="629" value="West Singhbhum"/>
+                <StringItem index="630" value="West Tripura"/>
+                <StringItem index="631" value="Wokha"/>
+                <StringItem index="632" value="Yadgir"/>
+                <StringItem index="633" value="Yamuna Nagar"/>
+                <StringItem index="634" value="Yanam"/>
+                <StringItem index="635" value="Yavatmal"/>
+                <StringItem index="636" value="Zunheboto"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="city_cbKeyPressed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Mob. no"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="phno_tf">
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="phno_tfKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="reg_btn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Register"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reg_btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fname_tf">
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="fname_tfKeyTyped"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
